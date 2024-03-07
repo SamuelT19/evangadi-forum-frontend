@@ -127,9 +127,12 @@ function Login({ toggleContainer, showSignup }) {
             {message.success}
           </h4>
         )}
-        <button type="submit">
+        <div className={classes.login_btn}>
+          <button type="submit">
           {message.waiting ? message.waiting : "Login"}
         </button>
+        </div>
+        
       </form>
       <button className={classes.textBtn} onClick={toggleContainer}>
         Create an account ?

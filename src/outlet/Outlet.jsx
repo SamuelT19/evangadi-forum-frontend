@@ -12,8 +12,7 @@ function Outleted() {
       <Header />
       <Outlet />
       </div>
-      <div className={classes.footer}>
-
+        <div className={classes.footer}>
       <Footer/>
       </div>
       </div>

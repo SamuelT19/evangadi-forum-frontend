@@ -136,14 +136,20 @@ button {
 .signin_container form {
     width: 100%;
 }
-
+.login_btn{
+    box-sizing: border-box;
+    background-color: #3535D8;
+    border-radius: 10px;
+    width: 98%;
+    margin: auto;
+}
 .signin_container form button {
     font-size: medium;
-    padding: 13px 45px;
     background-color: #3535D8;
+    width: 100%;
     color: white;
+    font-size: 20px;
     border: none;
-    border-radius: 5px;
     cursor: pointer;
 }
 
