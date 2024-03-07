@@ -44,7 +44,12 @@ function RenderQuestion({ question, clickable }) {
           </div>
           <div>
             <h3>{title}</h3>
-            <p>Description: {description}</p>
+            <p>
+              <span style={{ color: "red", fontWeight: "bolder" }}>
+                Description:&nbsp;&nbsp;
+              </span>
+              {description}
+            </p>
           </div>
         </div>
       )}

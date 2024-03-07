@@ -31,7 +31,7 @@ function AllAnswers({ questionid }) {
                 <h4>{answer?.username}</h4>
               </div>
               <div>
-                <p>Answer: {answer?.answer}</p>
+                <p>{answer?.answer}</p>
               </div>
             </div>
           ))
