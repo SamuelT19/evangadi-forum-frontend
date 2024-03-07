@@ -1,0 +1,8 @@
+a {
+    text-decoration: none;
+}
+
+input:focus {
+    border-color: #FF8500;
+    outline: none;
+}

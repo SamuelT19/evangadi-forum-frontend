@@ -1,0 +1,143 @@
+.allQuestions_container {
+    width: 80%;
+    margin: auto;
+}
+
+.allQuestions_container a {
+    color: black;
+}
+
+.welcome {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 20px;
+}
+
+.welcome>a {
+    padding: 10px 12px;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: rgba(0, 0, 255, 0.699);
+}
+
+.username span {
+    font-size: large;
+    font-weight: 600;
+    color: #FF8500;
+}
+
+.singleQuestion_container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 40px;
+    border-top: 2px rgb(240, 121, 23) dotted;
+    padding-block: 10px;
+}
+
+.hoverEffect:hover {
+    background-color: rgb(169, 192, 212);
+}
+
+.userProfile {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    text-align: center;
+}
+
+.userProfile h4 {
+    color: #000000;
+}
+
+.userProfile img {
+    width: 80px;
+}
+
+.btn {
+    color: #ffffff;
+    background-color: rgba(8, 8, 241, 0.767);
+}
+
+.btn:hover {
+    background-color: rgb(8, 8, 241);
+}
+
+textarea {
+    resize: none;
+}
+
+
+/* ***********       post Question        ******** */
+.postQ_container {
+    width: 80%;
+    margin: auto;
+
+}
+
+.postQ_container form,
+.postA_container form {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding-block: 5px;
+}
+
+.postQ_container form>*,
+.postA_container form>* {
+    padding: 10px;
+    border-color: rgba(0, 0, 0, 0.692);
+    border-width: 1px;
+    border-radius: 8px;
+    font-size: large;
+}
+
+/* ****************      Single Question        ********************* */
+
+
+.singlePage_container {
+    width: 80%;
+    margin: auto;
+}
+
+/* *******************    Post answer       ************************* */
+
+
+.postA_container form {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding-block: 5px;
+}
+
+.error {
+    padding: 10px;
+    color: red;
+    font-style: italic;
+}
+
+input:focus{
+    border: 2px #000000 solid !important;
+}
+
+@media screen and (max-width: 800px) {
+    .singleQuestion_container {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .userProfile {
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .userProfile img {
+
+        width: 50px;
+    }
+}

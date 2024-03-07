@@ -1,0 +1,75 @@
+.outlet_container {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    position: relative;
+    /* Set body to relative positioning */
+}
+
+.static {
+    padding-bottom: 50px;
+    /* Adjust this value to accommodate the height of the footer */
+}
+
+.footer {
+    position: relative;
+    /* Set footer to relative positioning */
+    bottom: 0;
+    /* Move the footer to the bottom */
+    width: 100%;
+    /* background-color: #333; */
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: -50px;
+    /* Negative margin to move footer up by its own height */
+}
+
+/* body {
+    margin: 0;
+    padding: 0;
+} */
+
+/* .outlet_container {
+    min-height: 100vh;
+}
+
+.static {
+    padding-bottom: 50px;
+    /* Adjust this value to accommodate the height of the footer */
+/* }
+
+.footer {
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}  */
+
+/* 
+.outlet_container {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    /* Ensures the page takes up at least the full height of the viewport */
+
+/* 
+.static {
+    flex: 1;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}  */

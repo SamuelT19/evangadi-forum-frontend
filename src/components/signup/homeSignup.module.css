@@ -1,0 +1,223 @@
+.homeSignup_outer_container {
+    width: 100%;
+    background-image: url(../../assets/home-bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.homeSignup_inner_container {
+    display: flex;
+    gap: 5px;
+    width: 90%;
+    margin: auto;
+    padding-block: 60px;
+}
+
+.homeSignup_inner_container>* {
+    padding: 10px;
+    flex: 1;
+}
+
+.sign_container {
+    margin: auto;
+    height: 450px;
+    padding: 40px;
+    background-color: #EBEAEA;
+    border-radius: 15px;
+    filter: drop-shadow(3px 10px 4px #55555779);
+    overflow: hidden;
+}
+
+.signup_container,
+.signin_container {
+    text-align: center;
+}
+
+.signup_container>* {
+    padding: 5px;
+
+}
+
+.signup_container p:first-of-type,
+.signin_container p:first-of-type {
+    display: inline-block;
+}
+
+.textBtn {
+    background-color: transparent;
+    color: rgb(235, 97, 42);
+    border: none;
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+.input_flex {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.input_flex input,
+button {
+    padding: 17px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: 1px rgb(156, 150, 150) solid;
+    background-color: rgb(255, 255, 255);
+}
+
+.input_flex .name {
+    width: inherit;
+    display: flex;
+    justify-content: space-between;
+}
+
+.input_flex .name input {
+    width: 41%;
+}
+
+
+.input_flex button {
+    background-color: #3535D8;
+    border: none;
+    font-size: larger;
+    color: white;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about h1 {
+    padding-top: 20px;
+}
+
+.about>p:first-child {
+    color: rgb(235, 97, 42);
+}
+
+.about button {
+    display: inline;
+    width: 150px;
+    color: #fff;
+    background-color: rgb(235, 97, 42);
+    margin: 15px 20px;
+    padding: 8px 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: medium;
+}
+
+.description {
+    width: 90%;
+}
+
+.description p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.signin_container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.signin_container>* {
+    padding: 5px;
+}
+
+.signin_container form {
+    width: 100%;
+}
+
+.signin_container form button {
+    font-size: medium;
+    padding: 13px 45px;
+    background-color: #3535D8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.signin_container input {
+    display: block;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    margin-block: 10px;
+    padding: 17px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: 1px rgb(156, 150, 150) solid;
+    background-color: rgb(255, 255, 255);
+}
+
+.signup_container,
+.signin_container {
+    transition: transform 0.3s ease-in-out;
+}
+
+.container_hidden {
+    transform: translateX(-100%);
+}
+
+button {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+    .homeSignup_inner_container {
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .homeSignup_inner_container>* {
+        width: 80%;
+    }
+
+    .sign_container {
+        padding-inline: 15px;
+    }
+}
+
+.input_flex input:focus {
+    border-color: #FF8500;
+    outline: none;
+}
+
+.password {
+    position: relative;
+}
+
+.password .item5 {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.password .eye {
+    position: absolute;
+    right: 5%;
+    top: 25%;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+    .input_flex div {
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 8px;
+    }
+
+    .input_flex div input {
+        width: 90%;
+    }
+}
