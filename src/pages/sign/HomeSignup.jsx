@@ -25,22 +25,21 @@ function HomeSignup() {
           <h1>Evangadi Q&A Forum</h1>
           <div className={classes.description}>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
-              ullam quae molestias, magnam veritatis non exercitationem enim
-              aperiam ea tempora. Necessitatibus, sit facere! Voluptas eum
-              laboriosam eligendi, at ipsam magnam.
+              Welcome to Evangadi Q&A Forum, the ultimate destination for
+              knowledge seekers and problem solvers alike! This forum is an
+              online space where users can ask questions and receive answers
+              from other users or experts on various topics.
             </p>
             <p>
-              Illum earum maxime expedita recusandae iste, architecto, sed odio,
-              voluptatum nisi ab excepturi deserunt possimus dolorum itaque
-              quibusdam consequatur ipsa perspiciatis! Quae molestiae ipsum
-              numquam nisi asperiores, quas adipisci atque?
+              Join our vibrant community of experts and enthusiasts to explore a
+              wide range of topics, from technology and science to arts and
+              culture. Ask questions, share your knowledge, and connect with
+              like-minded individuals in a welcoming and respectful environment.
             </p>
             <p>
-              Facere dolorem maiores dolor consequuntur. Non, ad quibusdam?
-              Culpa necessitatibus quasi, odit eius numquam sit doloremque
-              inventore amet aspernatur temporibus maiores quia, eaque dolorum
-              facilis minima enim illo unde at.
+              Discover valuable insights, find solutions to your queries, and
+              engage in meaningful conversations at Evangadi Q&A Forum. Join us
+              today and embark on a journey of discovery and learning!
             </p>
           </div>
 
