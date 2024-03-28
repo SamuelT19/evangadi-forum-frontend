@@ -17,6 +17,9 @@ function Footer() {
             <InstagramIcon sx={{ fontSize: 32 }} />
             <YouTubeIcon sx={{ fontSize: 40 }} />
           </div>
+          <p class="mb-0">
+            Copyright {new Date().getFullYear()} &copy; Samuel Tesfay
+          </p>
         </div>
         <div>
           <h2>Useful Link</h2>
